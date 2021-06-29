@@ -4,5 +4,5 @@ exports.paginaInicial = (req, res) => {
 }
 
 exports.create = (req, res) => {
-    res.send("Ei sou sua nova rota de post")
+    res.send(req.body)
 }
