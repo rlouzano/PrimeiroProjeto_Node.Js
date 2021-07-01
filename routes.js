@@ -4,7 +4,7 @@ const homeController = require('./src/controllers/homeController')
 const contatoController = require('./src/controllers/contatoController')
 
 route.get('/', homeController.paginaInicial);
-route.post('/', homeController.create);
+route.post('/', homeController.creater);
 route.get('/contato', contatoController.paginaInicial)
 
 module.exports = route;
